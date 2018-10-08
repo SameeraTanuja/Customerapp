@@ -26,6 +26,13 @@ public class Customer {
 		this.setEmail(email);
 		this.setAddress(address);
 	}
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	
 	public String getCustomerName() {
 		return customerName;
 	}
